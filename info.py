@@ -52,12 +52,12 @@ BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 RemoveBG_API = environ.get("RemoveBG_API", "")
 
 # url shortner
-SHORT_URL = environ.get("SHORT_URL", 'krownlinks.com')
-SHORT_API = environ.get("SHORT_API", '10c45cd3943f38044756d4822d8691efd634d174')
+SHORT_URL = environ.get("SHORT_URL", 'Modijiurl.com')
+SHORT_API = environ.get("SHORT_API", 'e5a0df550303e31db72c8924e40e706976a2adb2')
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001966055101'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'JAuran123_bot')
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
